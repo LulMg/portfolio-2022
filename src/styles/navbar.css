@@ -1,0 +1,30 @@
+/* nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: all 0.5s ease;
+} */
+.lol{
+    z-index: 9;
+    white-space: nowrap
+}
+span h1{
+    font-weight: 800;
+    font-size: 2em;
+    letter-spacing: 2px;
+    font-family: 'Bangers', cursive;
+}
+span h1#l{
+    color: #fff;
+    -webkit-text-stroke: 1px #1c0522;
+
+}
+img{
+    height: 3rem;
+}
+

@@ -84,11 +84,9 @@ background-color: rgb(255, 255, 255);
   font-family: 'Bowlby One SC', cursive;
   font-size: 4rem;
 }
-.smBox img{
-  height: 15rem;
-}
-.bigBox, .smBox{
-  border-radius: 20px;
+.bigBox img{
+  width: 60rem;
+  height: 40rem;
 }
 .endWave {
   position: absolute;
@@ -119,10 +117,9 @@ background-color: rgb(255, 255, 255);
 }
 .contact{
   background-color: #1C0522;
-  display: flex;
   align-items: center;
   justify-content:center;
-  height: 50rem;
+  height: 25rem;
 }
 .contact h2{
   font-family: 'Bowlby One SC', cursive;
@@ -172,4 +169,10 @@ background-color: rgb(255, 255, 255);
 }
 .fill{
   background-color: #1C0522;
+}
+.access{
+  height: 20rem;
+}
+.mail:hover{
+  
 }

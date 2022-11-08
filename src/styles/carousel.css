@@ -1,0 +1,8 @@
+.papiro:hover{
+    transform: translateY(-3%);
+    transition: all 0.2s ease-in-out;
+}
+.flechas{
+    color: #ff9f43;
+    font-size:large;
+}

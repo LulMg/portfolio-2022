@@ -4,12 +4,13 @@
     overflow: hidden;
 }
 .caja .mainCaja img{
-    width: 100%;
+    width: 50%;
+    height: 10rem;
 }
 .caja .overlayContent{
     /* width: 100%; */
     /* height: 100%; */
-    background-color: #e4e6df;
+    /* background-color: #e4e6df; */
     align-items: center;
     /* font-size: 2rem; */
     font-family: 'Bowlby One SC', cursive;

@@ -1,14 +1,3 @@
-/* nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 4;
-    pointer-events: none;
-    opacity: 0;
-    transform: translateY(-100%);
-    transition: all 0.5s ease;
-} */
 .lol{
     z-index: 9;
     white-space: nowrap

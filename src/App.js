@@ -33,8 +33,8 @@ function App() {
               ABOUT ME
             </h1>
             <div className="container p-2 rounded" id="bgMain">
-              <div className="d-flex p-5" id="bgAboutMe">
-                <div className="d-flex flex-column justify-content-center">
+              <div className="p-5" id="bgAboutMe">
+                <div className="hobbies">
                   <div>
                     <components.Hobbie
                       nameIcon={<i className="fa-solid fa-plane fa-2x m-1"></i>}
@@ -141,7 +141,7 @@ function App() {
             </svg>
           </div>
         </div>
-        <div>
+        <div className="contacto">
           <div className="contact sec" id="contact">
             <h2 className="borderi"> CONTACT ME</h2>
             <h2 className="wavy"> CONTACT ME</h2>
@@ -152,7 +152,7 @@ function App() {
                 <components.BotonPurp title= {<i className="fa-brands fa-github-alt fa-2x px-1"></i>}/>
               </a>
             </div>
-            <div>
+            <div className="mx-5">
               <a href="https://www.linkedin.com/in/lauramarinlulm/">
                 <components.BotonW title= {<i className="fa-brands fa-linkedin fa-2x px-1"></i>}/>
               </a>

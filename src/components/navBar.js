@@ -16,7 +16,7 @@ export function NavBar() {
             </h1>
           </span>
         </a>
-        <span className="navbar-text">
+        <span className="navbar-text botones">
           <a href="#explore">
             <BotonPurp title="ABOUT" />
           </a>

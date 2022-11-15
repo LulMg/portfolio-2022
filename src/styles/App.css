@@ -210,3 +210,12 @@ background-color: rgb(255, 255, 255);
     font-size: 3rem;
   }
 }
+.freeVec p{
+  color:#feca57;
+  font-family: 'Bangers', cursive;
+  letter-spacing: 3px;
+  font-size: small;
+}
+.freeVec a{
+  color: #fec95783;
+}

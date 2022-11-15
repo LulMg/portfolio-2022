@@ -165,6 +165,9 @@ function App() {
           </div>
         </div>
       </div>
+          <div className="text-center freeVec">
+            <p><a href="https://www.freepik.com/free-vector/ancient-egypt-papyrus-scroll-cartoon-with-hieroglyphs_5066681.htm#query=ornaments%20egypt&position=10&from_view=search&track=sph">papyrus by upklyak</a> <a href="https://www.freepik.com/free-vector/bedouins-walk-egypt-pyramids-camel-night-desert_12332070.htm">Pyramids by upklyak</a> on Freepik</p>
+          </div>
     </div>
   );
 }

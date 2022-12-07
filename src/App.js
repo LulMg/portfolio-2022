@@ -35,41 +35,41 @@ function App() {
             <div className="container p-2 rounded" id="bgMain">
               <div className="p-5" id="bgAboutMe">
                 <div className="hobbies">
-                  <div>
+                  <div className="mt-2 h">
                     <components.Hobbie
-                      nameIcon={<i className="fa-solid fa-plane fa-2x m-1"></i>}
-                      text={"traveling"}
+                      nameIcon={<i className="fa-solid fa-plane fa-xl m-3"></i>}
+                      text={"coding"}
                     />
                   </div>
-                  <div className="mt-2">
+                  <div className="mt-2 h">
                     <components.Hobbie
-                      nameIcon={<i className="fa-solid fa-tree fa-2x m-1"></i>}
+                      nameIcon={<i className="fa-solid fa-tree fa-xl m-3"></i>}
                       text={"nature"}
                     />
                   </div>
-                  <div className="mt-2">
+                  <div className="mt-2 h">
                     <components.Hobbie
                       nameIcon={
-                        <i className="fa-solid fa-graduation-cap fa-2x m-1"></i>
+                        <i className="fa-solid fa-graduation-cap fa-xl m-3"></i>
                       }
                       text={"books"}
                     />
                   </div>
-                  <div className="mt-2">
+                  <div className="mt-2 h">
                     <components.Hobbie
                       nameIcon={
-                        <i className="fa-solid fa-paintbrush fa-2x m-1"></i>
+                        <i className="fa-solid fa-paintbrush fa-xl m-3"></i>
                       }
                       text={"drawing"}
                     />
                   </div>
                 </div>
-                <span className="aboutMeSec text-center">
+                <span className="aboutMeSec">
                   <img src={avatar} alt="avatar" />
 
                   <a href={resume} className="btn mt-2" id="cv">
                     <span className="d-flex justify-content-center">
-                      <span className="me-3">
+                      <span className="me-2">
                         <i className="fa-solid fa-file fa-lg"></i>
                       </span>
                       <h6>RESUME (CV)</h6>
@@ -83,7 +83,7 @@ function App() {
                     <h1 className="text-center my-5" id="hello">
                       Hello World!
                     </h1>
-                    <div className="">
+                    <div>
                       <p>
                         I'm Laura Marín, a
                         <span className="FullStk"> Full Stack developer </span>
@@ -147,17 +147,17 @@ function App() {
             <h2 className="wavy"> CONTACT ME</h2>
           </div>
           <div className="d-flex justify-content-center access">
-            <div>
+            <div className="footerbutton">
               <a href="https://github.com/LulMg">
                 <components.BotonPurp title= {<i className="fa-brands fa-github-alt fa-2x px-1"></i>}/>
               </a>
             </div>
-            <div className="mx-5">
+            <div className="mx-5 footerbutton">
               <a href="https://www.linkedin.com/in/lauramarinlulm/">
                 <components.BotonW title= {<i className="fa-brands fa-linkedin fa-2x px-1"></i>}/>
               </a>
             </div>
-          <div className="text-center mail">
+          <div className="text-center mail footerbutton">
               <a href="mailto:lulumarin.25.lm@gmail.com">
                 <components.BotonW title= {<i className="fa-solid fa-envelope fa-2x px-1"></i>}/>
               </a>

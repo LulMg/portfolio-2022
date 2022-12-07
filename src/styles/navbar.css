@@ -1,6 +1,9 @@
 .lol{
-    z-index: 9;
-    white-space: nowrap
+    /* z-index: 9; */
+    /* white-space: nowrap; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 span h1{
     font-weight: 800;
@@ -11,9 +14,56 @@ span h1{
 span h1#l{
     color: #fff;
     -webkit-text-stroke: 1px #1c0522;
-
 }
 img{
     height: 3rem;
 }
+.burguerButton{
+    display: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
 
+@media only screen and (max-width:850px){
+    .navbar-text{
+        display: flex;
+        flex-direction:column;
+        width: 100%;
+        height: 100vh;
+        background-color: #f8c24c;
+        border-radius: 0 0 5% 50%;
+        margin-top: -2995px;
+        transition: all 0.8s ease;
+    }
+    .navbar-text.active{
+        display: block;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+    }
+    .links{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+    .botones a{
+        padding: 5px;
+    }
+    .burguerButton{
+        display:block;
+    }
+    nav{
+        display: flex;
+    }
+}

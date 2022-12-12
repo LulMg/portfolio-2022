@@ -109,18 +109,14 @@ background-color: rgb(255, 255, 255);
 .titleBody{
   display: flex;
   justify-content: center;
-  flex-direction: column-reverse;
 }
 #subPortfolio{
   color: #1C0522;
   font-family: 'Bangers', cursive;
   font-size: 5rem;
-  align-self: flex-end;
+  z-index: 2;
   position: absolute;
-  top: 25%;
-  bottom: 0;
-  left: 50%;
-  right: 0;
+  margin-top: 2.5vh;
   -webkit-text-stroke: 1px #feca57;
   color: #1c0522;
 }
@@ -321,8 +317,8 @@ background-color: rgb(255, 255, 255);
   }
   #subPortfolio{
     font-size: 1rem;
-    top: 33.5%;
-    left: 57%;
+    /* top: 33.5%;
+    left: 57%; */
     -webkit-text-stroke: 0.3px #feca57;
     color: #1c0522;
   }

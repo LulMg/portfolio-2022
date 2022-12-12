@@ -102,15 +102,27 @@ background-color: rgb(255, 255, 255);
 }
 #portfolioTitle{
   padding-top: 100px;
-  color: #ff9e434d;
+  color: #1c052271;
   font-family: 'Bowlby One SC', cursive;
   font-size: 8rem;
+}
+.titleBody{
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
 }
 #subPortfolio{
   color: #1C0522;
   font-family: 'Bangers', cursive;
   font-size: 5rem;
   align-self: flex-end;
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  -webkit-text-stroke: 1px #feca57;
+  color: #1c0522;
 }
 .bigBox img{
   width: 60rem;
@@ -160,16 +172,17 @@ background-color: rgb(255, 255, 255);
 }
 .space{
   display: flex;
+  justify-content: center;
   margin-top: 100px;
   margin-bottom: 20px;
 }
-.space2{
-  display: flex;
-  margin-bottom: 20px;
+.coming{
+  width: 20vw;
+  font-family: 'Bangers', cursive;
 }
-.space3{
-  display: flex;
-  margin-bottom: 120px;
+.coming h4{
+  font-size: 2vh;
+  color: #ff9f43;
 }
 .contact{
   background-color: #1C0522;
@@ -255,7 +268,10 @@ background-color: rgb(255, 255, 255);
 .freeVec a{
   color: #fec95783;
 }
-
+.colCard{
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (max-width: 850px){
   #bgAboutMe{
     display:flex;
@@ -273,6 +289,9 @@ background-color: rgb(255, 255, 255);
     font-size: 70%;
     letter-spacing: 0px;
     transform: translateY(5px);
+  }
+  .coming h4{
+    font-size: 0.8vh;
   }
   .btn{
     align-items: center;
@@ -300,11 +319,19 @@ background-color: rgb(255, 255, 255);
     margin-inline: 2px;
     width: 30%;
   }
+  #subPortfolio{
+    font-size: 1rem;
+    top: 33.5%;
+    left: 57%;
+    -webkit-text-stroke: 0.3px #feca57;
+    color: #1c0522;
+  }
   p{
     font-size: 2vh;
     color: #fff
   }
   #portfolioTitle{
+    padding-top: 2px;
     font-size: 2rem;
   }
   .aboutTexto p{

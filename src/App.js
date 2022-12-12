@@ -14,15 +14,15 @@ import python from "./images/python-icon.webp";
 import mysql from "./images/mysql-icon.png";
 import git from "./images/git-logo.png";
 //projects img
-import sf from './images/swPage.png'
-import sw from './images/sw.png'
-import eddie from './images/eddie.png'
-import token from './images/token.png'
-import todo from './images/toDoList.PNG'
-import card from './images/card.PNG'
-import feed from './images/feed.PNG'
-import post from './images/post.PNG'
-import sP from './images/simplePage.PNG'
+import sf from "./images/swPage.png";
+import sw from "./images/sw.png";
+import eddie from "./images/eddie.png";
+import token from "./images/token.png";
+import todo from "./images/toDoList.PNG";
+import card from "./images/card.PNG";
+import feed from "./images/feed.PNG";
+import post from "./images/post.PNG";
+import sP from "./images/simplePage.PNG";
 
 //COMPONENTES
 import * as components from "./components";
@@ -151,86 +151,93 @@ function App() {
             </svg>
           </div>
           <div className="cardsBody">
-            <h1 className="text-center" id="portfolioTitle">
-              PORTFOLIO
-            </h1>
-            <h3 id="subPortfolio">MY WORK</h3>
+            <div className="titleBody">
+              <h1 className="text-center" id="portfolioTitle">
+                PORTFOLIO
+              </h1>
+              <h3 id="subPortfolio">MY WORK</h3>
+            </div>
             <div className="space">
-              <div className="card1">
-                <components.Card
-                project="Strager Films" 
-                ima={sf}
-                buttonTitle="take a look"
-                refe='https://github.com/LulMg/Stranger-films.git'
-                />
+              <div className="colCard">
+                <div className="card1">
+                  <components.Card
+                    project="Strager Films"
+                    ima={sf}
+                    buttonTitle="take a look"
+                    refe="https://github.com/LulMg/Stranger-films.git"
+                  />
+                </div>
+                <div className="card1">
+                  <components.Card
+                    project="Instagram feed"
+                    buttonTitle="take a look"
+                    ima={feed}
+                    refe="https://github.com/LulMg/Instagram-feed.git"
+                  />
+                </div>
+                <div className="card1">
+                  <components.Card
+                    project="Simple react page"
+                    buttonTitle="take a look"
+                    ima={sP}
+                    refe="https://github.com/LulMg/Page-w-React.git"
+                  />
+                </div>
               </div>
-              <div className="card1">
-                <components.Card 
-                project="Star Wars API page" 
-                ima={sw}
-                buttonTitle="take a look"
-                refe='https://github.com/LulMg/starWars-flux.git'
-                />
+              <div className="colCard">
+                <div className="card1">
+                  <components.Card
+                    project="Star Wars API page"
+                    ima={sw}
+                    buttonTitle="take a look"
+                    refe="https://github.com/LulMg/starWars-flux.git"
+                  />
+                </div>
+                <div className="card1">
+                  <components.Card
+                    project="Eddie Home-page"
+                    buttonTitle="take a look"
+                    ima={eddie}
+                    refe="https://challenge-edie-home-page.vercel.app/"
+                  />
+                </div>
               </div>
-              <div className="card1">
-                <components.Card 
-                project="Authentication" 
-                buttonTitle="take a look"
-                ima={token}
-                refe='https://github.com/LulMg/token.git'
-                />
-              </div>
-            </div>
-            <div className="space2">
-              <div className="card1">
-                <components.Card 
-                project="To Do List" 
-                buttonTitle="take a look"
-                ima={todo}
-                refe='https://github.com/LulMg/TodoList-react.git'
-                />
-              </div>
-              <div className="card1">
-                <components.Card 
-                project="Eddie Home-page" 
-                buttonTitle="take a look"
-                ima={eddie}
-                refe='https://challenge-edie-home-page.vercel.app/'
-                />
-              </div>
-              <div className="card1">
-                <components.Card 
-                project="Card generator" 
-                buttonTitle="take a look"
-                ima={card}
-                refe="https://github.com/LulMg/card-generator.git"
-                />
-              </div>
-            </div>
-            <div className="space3">
-              <div className="card1">
-                <components.Card 
-                project="Instagram feed" 
-                buttonTitle="take a look"
-                ima={feed}
-                refe="https://github.com/LulMg/Instagram-feed.git"
-                />
-              </div>
-              <div className="card1">
-                <components.Card 
-                project="Instagram post" 
-                buttonTitle="take a look"
-                ima={post}
-                refe="https://github.com/LulMg/instagram-post.git"
-                />
-              </div>
-              <div className="card1">
-                <components.Card 
-                project="Simple react page" 
-                buttonTitle="take a look"
-                ima={sP}
-                refe="https://github.com/LulMg/Page-w-React.git"
-                />
+              <div className="colCard">
+                <div className="card1">
+                  <components.Card
+                    project="Authentication"
+                    buttonTitle="take a look"
+                    ima={token}
+                    refe="https://github.com/LulMg/token.git"
+                  />
+                </div>
+                <div className="card1">
+                  <components.Card
+                    project="To Do List"
+                    buttonTitle="take a look"
+                    ima={todo}
+                    refe="https://github.com/LulMg/TodoList-react.git"
+                  />
+                </div>
+                <div className="card1">
+                  <components.Card
+                    project="Card generator"
+                    buttonTitle="take a look"
+                    ima={card}
+                    refe="https://github.com/LulMg/card-generator.git"
+                  />
+                </div>
+                <div className="card1">
+                  <components.Card
+                    project="Instagram post"
+                    buttonTitle="take a look"
+                    ima={post}
+                    refe="https://github.com/LulMg/instagram-post.git"
+                  />
+                </div>
+                <div className="coming mt-1 p-2">
+                  <h4>more coming soon...</h4>
+                </div>
               </div>
             </div>
           </div>

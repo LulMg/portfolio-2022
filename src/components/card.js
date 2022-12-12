@@ -5,30 +5,23 @@ import { BotonY } from "./boton";
 export const Card = (props) => {
   return (
     <div className="flip-card-container">
-  <div className="flip-card">
+      <div className="flip-card">
+        <div className="card-front">
+          <img src={props.ima} alt="projectImg" id="image" />
+        </div>
 
-    <div className="card-front">
-      <figure>
-        <div className="img-bg"></div>
-        <img src={props.ima} alt="projectImg" id="image"/>
-      </figure>
-    </div>
-
-    <div className="card-back">
-      <div className="title">
-        <h1>{props.project}</h1>
+        <div className="card-back">
+          <div className="title">
+            <img src={props.ima} alt="projectImg" id="backImage" />
+            <div className="seeMore">
+              <h1 className="moreh1">{props.project}</h1>
+              <a href={props.refe} target="_blank">
+                <BotonY title={props.buttonTitle} />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <a href={props.refe} target="_blank">
-        <BotonY
-        title={props.buttonTitle}
-        />
-      </a>
     </div>
-
-  </div>
-</div>
-
   );
 };
-
-    

@@ -1,10 +1,8 @@
 .bodyHobb{
     background-color: #1c0522;
-    width: 100%;
-    height: 7rem;
+    height: 5rem;
 }
 #hobbieStyle{
-    width: 100%;
     height: auto;
     border: 2px solid #1c0522;
     background-color: #feca57;
@@ -21,25 +19,16 @@
 .textIcon{
     color: #1c0522;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 100%;
+    font-size: 90%;
 }
 i{
     color: #1c0522;
 }
-.h{
-    display: flex;
-    justify-content: center;
-    width: 3rem;
-    height: auto;
-}
 @media only screen and (max-width:850px){
     .bodyHobb{
-        background-color: #220505;
-        width: 100%;
-        height: 90%;
+        height: 4.5rem;
     }
     .textIcon{
-        font-size: 70%;
+        font-size: 50%;
     }
-   
 }

@@ -1,18 +1,36 @@
 import React from "react";
-import "../styles/carousel.css";
+import "../styles/card.css";
 import { BotonY } from "./boton";
-//IMAGES
-import papP from "../images/papaPage.png";
-import papTo from "../images/papaTodo.png";
-import papCard from "../images/papCard.png";
-import papFeed from "../images/papfeed.png";
-import pap1 from "../images/papiro-01.png";
-import papTok from "../images/paptokenn-01.png";
-import papsw from "../images/papsw-01.png";
 
-export const Carousel = () => {
+export const Card = (props) => {
   return (
-    <div
+    <div className="flip-card-container">
+  <div className="flip-card">
+
+    <div className="card-front">
+      <figure>
+        <div className="img-bg"></div>
+        <img src={props.img} alt="projectImg" id="image"/>
+        <figcaption>{props.projectName}</figcaption>
+      </figure>
+      <h1 className="text-light">holiiii</h1>
+    </div>
+
+    <div className="card-back">
+      <figure>
+        <div className="img-bg"></div>
+      </figure>
+
+      <button>Book</button>
+    </div>
+
+  </div>
+</div>
+
+  );
+};
+
+    {/* <div
       id="carouselExampleControls"
       className="carousel slide"
       data-bs-ride="carousel"
@@ -77,6 +95,4 @@ export const Carousel = () => {
           <BotonY title="next" />
         </span>
       </button>
-    </div>
-  );
-};
+    <div/> */}

@@ -7,7 +7,7 @@ export function Hobbie(props) {
       <div className="text-center rounded p-1" id="hobbieStyle">
         <div className="bor">{props.nameIcon}</div>
         <div className="bor mt-1 bg-light text-center">
-          <p className="textIcon">{props.text}</p>
+          <p className="textIcon mb-1">{props.text}</p>
         </div>
       </div>
     </div>

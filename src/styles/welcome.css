@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 #welcome::before{
     content: '';
@@ -46,7 +47,7 @@
     position: absolute;
     color: #fff;
     white-space: nowrap;
-    font-size: 2.4vw;
+    font-size: 40px;
     z-index: 8;
     transform: translateY(160px);
 
@@ -64,10 +65,40 @@
     z-index: 100;
     transform: translateY(250px);
 }
+#text{
+    font-size: 9vw;
+    z-index: 9;
+    font-family: 'Bowlby One SC', cursive;
+    letter-spacing: 2px;
+}
 #fStitle{
     font-family: 'Bangers', cursive;
     letter-spacing: 2px;
 }
 @media only screen and (max-width:850px){
-    
+    #fStitle{
+        font-size: 20px;
+        z-index: 8;
+        transform: translateY(100px);
+    }
+    #welcome img#dune{
+        display: none;
+    }
+    #welcome{
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+    }
+    #welcome img{
+        position: absolute;
+        top: 0;
+        left: 0px; 
+        width: 100vw;
+        height: 100vh;
+        object-fit:cover;
+    }
+    #btnName{
+        letter-spacing: 2px;
+        font-size: 1em;
+    }
 }

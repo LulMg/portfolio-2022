@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/App.css";
-import resume from "./CV/Resume.pdf";
+import resume from "./CV/CV-lulMg.pdf";
 
 //IMAGES
 import avatar from "./images/avatar.jpeg";
